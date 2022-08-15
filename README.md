@@ -3,9 +3,9 @@
 WeChat SDK for Yii2 , 基于 [w7corp/wechat](https://github.com/overtrue/wechat).     
 这个扩展可以简单的用yii2的方式去调用EasyWechat:   `Yii::$app->wechat`.   
 
-[![Latest Stable Version](https://poser.pugx.org/bestyii/yii2-easywechat/v/stable)](https://packagist.org/packages/bestyii/yii2-easy-wechat)
-[![Total Downloads](https://poser.pugx.org/bestyii/yii2-easywechat/downloads)](https://packagist.org/packages/bestyii/yii2-easy-wechat)
-[![License](https://poser.pugx.org/bestyii/yii2-easywechat/license)](https://packagist.org/packages/bestyii/yii2-easy-wechat)
+[![Latest Stable Version](https://poser.pugx.org/bestyii/yii2-easywechat/v/stable)](https://packagist.org/packages/bestyii/yii2-easywechat)
+[![Total Downloads](https://poser.pugx.org/bestyii/yii2-easywechat/downloads)](https://packagist.org/packages/bestyii/yii2-easywechat)
+[![License](https://poser.pugx.org/bestyii/yii2-easywechat/license)](https://packagist.org/packages/bestyii/yii2-easywechat)
 
 ## 安装
 ```
