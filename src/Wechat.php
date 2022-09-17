@@ -277,7 +277,19 @@ class Wechat extends Component
     public function rebind($app)
     {
         foreach ($this->rebinds as $key => $class) {
-            $app->rebind($key, new $class());
+            if (is_string($class)) {
+                if (Yii::$app->has($class)) {
+                    $app->rebind($key, Yii::$app->get($class));
+                    continue;
+                }
+                if (class_exists($class)) {
+                    $app->rebind($key, new $class());
+                    continue;
+                }
+            }
+            if (is_callable($class, true) || is_object($class)) {
+                $app->rebind($key, $class);
+            }
         }
 
         return $app;
